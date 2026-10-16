@@ -4,6 +4,7 @@ At present, this repository included the following sources:
 
 1. sources code and dataset for the data comparision between PFAS in Israeli WWTPs and the global WWTPs.
 2. The row dataset of PFAS in BS and DM WWTPs.
+3. sources code and dataset for the statistical analysis (Wilcoxon rank-sum test and Kruskal-Wallis test).
 
 
 Xiangui Huang, Ben-Gurion University of the Negev, Israel.
