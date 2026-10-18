@@ -15,7 +15,12 @@ from scipy.stats import mannwhitneyu
 
 
 
+"""
+Here, user can choice the statistical source data. 'Source Data Table_PFAS in BS and DM WWTP.csv' is the source data that D and ND is treated as zero;
+while, 'Source Data Table_PFAS in BS and DM WWTP_D.csv' is the source data that D is LOQ/2, which introduce ~2.2 ng/L for liquid samples and ~468.6 ng/kg
+for solid samples, and ND is treated as zero.
 
+"""
 
 dataset_file="C:\Aphd_PFAS in WWTP\DataAnalysis\significance test\Wilcoxon\Source Data Table_PFAS in BS and DM WWTP.csv"
 PFAS_df = pd.read_csv(dataset_file,header=0, index_col=0)
